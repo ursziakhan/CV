@@ -24,11 +24,14 @@ function Work() {
           <p className="py-6">// Avslutade och pågående projekt</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+
+
+        
           <div
             style={{ backgroundImage: `url(${Mera})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
-          >
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
+           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center ">
               <span className="text-2xl font-bold text-white tracking-wider">
@@ -45,13 +48,15 @@ function Work() {
                   </a>
                 </button>
               </div>
-            </div>
-          </div>
-          <div
+             </div>
+           </div>
+
+
+           <div
             style={{ backgroundImage: `url(${Modernstad})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
-          >
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
+           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
@@ -74,7 +79,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Norway})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -97,7 +102,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Crew})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -120,7 +125,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Crew})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -143,7 +148,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Garn})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -166,7 +171,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Rent})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -189,7 +194,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Femk})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -212,7 +217,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Hoosab})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -235,7 +240,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Forest})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -258,7 +263,7 @@ function Work() {
           <div
             style={{ backgroundImage: `url(${Caffee})` }}
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div"
+            justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -280,7 +285,7 @@ function Work() {
           </div>
           <div
             className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div bg-slate-300"
+            justify-center items-center mx-auto content-div bg-slate-300 mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">

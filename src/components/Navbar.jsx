@@ -15,7 +15,7 @@ function Navbar() {
       <div>
         <img
           src={logo}
-          alt="Logo Image"
+          alt=" "
           style={{ width: '150px', marginTop: '40px' }}
         />
       </div>
@@ -120,14 +120,13 @@ function Navbar() {
             </a>
           </li>{' '}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#6fc2b0]">
-            <a
-              href="mailto:info@webcomm.com"
-              className="flex justify-between items-center w-full text-white"
-              href="mailto:info@webcomm.com"
-            >
-              Email
-              <HiOutlineMail size={30} />
-            </a>
+          <a
+  href="mailto:info@webcomm.com"
+  className="flex justify-between items-center w-full text-white"
+>
+  Email
+  <HiOutlineMail size={30} />
+</a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#565f69]">
             <a

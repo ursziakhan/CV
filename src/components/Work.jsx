@@ -21,7 +21,7 @@ function Work() {
           <p className="text-4xl font-bold inline border-b-4  border-[#520e26]">
             Work
           </p>
-          <p className="py-6">// Avslutade och pågående projekt</p>
+          <p className="py-6"> Avslutade och pågående projekt</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
 

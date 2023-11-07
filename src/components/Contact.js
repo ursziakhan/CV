@@ -16,7 +16,7 @@ export default function Contact() {
             Kontakt
           </p>
           <p className="text-[#ccd6f6] py-4">
-            // Skicka in formuläret nedan eller skicka mig ett e-postmeddelande
+            Skicka in formuläret nedan eller skicka mig ett e-postmeddelande
             på &nbsp;
             <a
               href="mailto:info@webcomm.com"

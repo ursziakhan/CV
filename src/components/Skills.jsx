@@ -14,6 +14,15 @@ import Firebase from '../assets/firebase.png';
 import Mongo from '../assets/mongo.png';
 import Xd from '../assets/xd.png';
 import Bootstrap from '../assets/bootstrap.png';
+import Figma from '../assets/figma.jpg';
+import Jirah from '../assets/jirah.jpg';
+import Semrush from '../assets/semrush.png';
+import Merchant from '../assets/merchant.png';
+import Tag from '../assets/tag.png';
+import Ubber from '../assets/ubber.png';
+import Search from '../assets/search.jpg';
+import Canva from '../assets/canva.png';
+import Anlytics from '../assets/anlytics.jpg';
 
 function Skills() {
   return (
@@ -79,9 +88,33 @@ function Skills() {
             <p className="my-4">Google Ads</p>
           </div>{' '}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Search} alt="XD Icon" />
+            <p className="my-4">Search console</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Tag} alt="XD Icon" />
+            <p className="my-4">Google Tag Manager</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Merchant} alt="XD Icon" />
+            <p className="my-4">Google Merchant Center</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Anlytics} alt="XD Icon" />
+            <p className="my-4">Google Analytics</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
             <img className="w-20 mx-auto" src={SEO} alt="Seo Icon" />
             <p className="my-4">SEO</p>
           </div>{' '}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Semrush} alt="Seo Icon" />
+            <p className="my-4">SEMRUSH</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Ubber} alt="Seo Icon" />
+            <p className="my-4">Ubbersuggest</p>
+          </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
             <img className="w-20 mx-auto" src={Firebase} alt="Firebase Icon" />
             <p className="my-4">Firebase</p>
@@ -101,6 +134,18 @@ function Skills() {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
             <img className="w-20 mx-auto" src={Xd} alt="XD Icon" />
             <p className="my-4">XD</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Canva} alt="XD Icon" />
+            <p className="my-4">Canva</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Figma} alt="XD Icon" />
+            <p className="my-4">Figma</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-4">
+            <img className="w-20 mx-auto" src={Jirah} alt="XD Icon" />
+            <p className="my-4">Jira</p>
           </div>
         </div>
       </div>

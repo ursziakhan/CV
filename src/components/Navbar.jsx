@@ -11,13 +11,24 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-grey-300">
-      <div>
-        <img
-          src={logo}
-          alt=" "
-          style={{ width: '150px', marginTop: '40px' }}
-        />
+    <div className="fixed w-full h-[100px] bg-[#0a192f] flex justify-between items-center px-4  text-grey-300  ">
+      <div className='w-80 h-80 mt-0 pt-0'>
+      <img
+      src={logo}
+      alt=""
+      style={{
+        width: '200px',
+        marginTop: '100px',
+        marginLeft: '100px',
+        
+
+      
+        '@media (max-width: 600px)': {
+          width: '50px',
+          height: '50px',
+        },
+      }}
+    />
       </div>
       {/*  menu*/}
       <div className="hidden  md:flex">
@@ -51,7 +62,7 @@ function Navbar() {
       </div>
 
       {/* hamburger */}
-      <div onClick={handeleclick} className="md:hidden z-10 bg-white  ">
+      <div onClick={handeleclick} className="md:hidden z-10 bg-white rounded ">
         {!nav ? <FaBars className="text-4xl " /> : <FaTimes />}
       </div>
 

@@ -3,13 +3,15 @@ import Mera from '../assets/mera.png';
 import Modernstad from '../assets/modernstäd.png';
 import Norway from '../assets/norway.png';
 import Crew from '../assets/crew.png';
+import Edvardson from '../assets/edvardson.png';
 import Garn from '../assets/garn.png';
 import Rent from '../assets/rent.png';
 import Femk from '../assets/femk.png';
 import Hoosab from '../assets/hoosab.png';
 import Forest from '../assets/forest.png';
 import Caffee from '../assets/caffee.png';
-
+import Tunesia from '../assets/tunesia.png';
+import Vastra from '../assets/vastra.png';
 function Work() {
   return (
     <div
@@ -29,8 +31,8 @@ function Work() {
         
           <div
             style={{ backgroundImage: `url(${Mera})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div mb-10 md:mb-0"
+            className="shadow-lg  group container rounded-md flex
+            justify-center items-center mx-auto content-div mb-10 md:mb-0 border border-white"
            >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center ">
@@ -54,8 +56,8 @@ function Work() {
 
            <div
             style={{ backgroundImage: `url(${Modernstad})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
-            justify-center items-center mx-auto content-div mb-10 md:mb-0"
+            className="shadow-lg  group container rounded-md flex
+            justify-center items-center mx-auto content-div mb-10 md:mb-0 border border-white"
            >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
@@ -78,7 +80,7 @@ function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${Norway})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            className="shadow-lg  group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
@@ -101,7 +103,7 @@ function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${Crew})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            className="shadow-lg group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
@@ -123,19 +125,19 @@ function Work() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Crew})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            style={{ backgroundImage: `url(${Edvardson})` }}
+            className="shadow-lg group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Completed
+                In progress
               </span>
               <div className="flex justify-center pt-5">
                 <button className="  text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                   <a
-                    href="https://umeacleaningcrew.se/"
+                    href="https://edvardson.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -147,13 +149,13 @@ function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${Garn})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            className="shadow-lg  group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                In Progress
+                Completed
               </span>
               <div className="flex justify-center pt-5">
                 <button className="  text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
@@ -170,7 +172,7 @@ function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${Rent})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            className="shadow-lg  group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
@@ -193,7 +195,7 @@ function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${Femk})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            className="shadow-lg group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
@@ -216,7 +218,7 @@ function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${Hoosab})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            className="shadow-lg  group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
@@ -239,7 +241,7 @@ function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${Forest})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            className="shadow-lg  group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
@@ -260,15 +262,17 @@ function Work() {
               </div>
             </div>
           </div>
+
+
           <div
             style={{ backgroundImage: `url(${Caffee})` }}
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+            className="shadow-lg  group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div mb-10 md:mb-0"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                In Progress
+             Completed
               </span>
               <div className="flex justify-center pt-5">
                 <button className="  text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
@@ -283,8 +287,10 @@ function Work() {
               </div>
             </div>
           </div>
-          <div
-            className="shadow-lg shadow-[#048c16] group container rounded-md flex
+
+      
+          <div style={{ backgroundImage: `url(${Tunesia})` }}
+            className="shadow-lg  group container rounded-md flex border border-white
             justify-center items-center mx-auto content-div bg-slate-300 mb-10 md:mb-0"
           >
             {/* hover effect */}
@@ -293,7 +299,40 @@ function Work() {
                 New-Visit Tunesia
               </span>
               <div className="flex justify-center pt-5">
-                <a href="/"> </a>
+                <a href="https://norwegianexplorervans.com/visit-tunesia/"> </a>
+                <button className="  text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                  Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="shadow-lg  group container rounded-md flex border border-white
+         justify-center items-center mx-auto content-div mb-10 md:mb-0 bg-slate-200"
+       >
+         {/* hover effect */}
+         <div className="group-hover:opacity-100 text-center">
+           <span className="text-2xl font-bold text-black tracking-wider">
+         Docking app in Progress
+           </span>
+           <div className="flex justify-center pt-5">
+            
+           </div>
+         </div>
+       </div>
+
+       
+       <div style={{ backgroundImage: `url(${Vastra})` }}
+            className="shadow-lg  group container rounded-md flex border border-white
+            justify-center items-center mx-auto content-div bg-slate-300 mb-10 md:mb-0"
+          >
+            {/* hover effect */}
+            <div className="opacity-0 group-hover:opacity-100 text-center">
+              <span className="text-xl font-bold text-white tracking-wider">
+                New-Visit Tunesia
+              </span>
+              <div className="flex justify-center pt-5">
+                <a href="https://norwegianexplorervans.com/visit-tunesia/"> </a>
                 <button className="  text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                   Demo
                 </button>
@@ -302,8 +341,14 @@ function Work() {
           </div>
         </div>
       </div>
+
+     
+
+
+
     </div>
   );
 }
 
 export default Work;
+

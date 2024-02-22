@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       name="about"
-      className="w-full sm:h-screen bg-[#0A192f] text-[#8892b0] sm:pb-0 pb-[200px] pt-[100px] sm:pt-[200px]"
+      className="w-full sm:h-screen bg-[#0A192f] text-[#8892b0] sm:pb-0 pb-[200px] "
     >
       <div className="flex flex-col justify-center items-center w-full h-full ">
         <div className="max-w-[1000px] w-full  grid grid-cols-2 gap-8  ">
